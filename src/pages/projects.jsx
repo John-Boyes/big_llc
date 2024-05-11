@@ -5,7 +5,7 @@ import ProjectItem from '../components/ProjectItem'
 function Projects() {
   return (
     <div className='flex flex-col scroll-p-8'>
-      <p className="text-xl font-bold justify-left">Projects</p>
+      <p className="text-xl font-bold justify-left">Previous Projects</p>
 
       <div className='flex justify-center'>
         <p className="text-md max-w-xl">

@@ -11,21 +11,21 @@ function PortfolioItem({ title, imgUrl, stack, link, blurb}) {
         <button
             onClick={() => setOpen(true) }
             rel="noopener noreferrer"
-            className='bg-gray-50 dark:bg-black border-2 border-stone-900 
-                dark:border-white rounded-md overflow-hidden shadow-sm 
-                shadow-purple-500 dark:shadow-orange-500'
+            className='bg-gray-50 border-2 border-stone-900 
+                rounded-md overflow-hidden shadow-sm 
+                shadow-purple-500 '
             >
         <img 
             src={imgUrl}
             alt="portfolio"
             className="w-full md:h-80 object-cover cursor-pointer"
             />
-        <div className="w-full p-4">
-            <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold dark:text-white'>{title}</h3>
+        <div className="w-full p-4 bg-teal-400">
+            <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold '>{title}</h3>
             <p className='flex flex-wrap gap-2 flex-row items-center justify-start 
-                text-xs md:text-sm dark:text-white dark:black'>
+                text-xs md:text-sm '>
                 {stack.map(item => (
-                    <span className='inline-block px-2 py-1 font-semibold border-2 border-stone-900 bg-white dark:bg-black dark:border-white rounded-md'>
+                    <span className='inline-block px-2 py-1 font-semibold border-2 border-stone-900 bg-teal-50  rounded-md'>
                         {item}
                     </span>
                 ))}
@@ -59,27 +59,27 @@ function PortfolioItem({ title, imgUrl, stack, link, blurb}) {
                     leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                     >
                     <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
-                        <div className="bg-white dark:bg-gray-700 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <div className="bg-gray-100 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                         <div className="sm:flex sm:items-start">
                             <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                            <Dialog.Title as="h3" className="text-base dark:text-white font-semibold leading-6 text-gray-900">
+                            <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
                                 {title}
                             </Dialog.Title>
                             <div className="mt-2">
-                                <p className="text-sm text-gray-500 dark:text-gray-200">
+                                <p className="text-sm text-gray-500">
                                 {blurb}
                                 </p>
                             </div>
                             </div>
                         </div>
                         </div>
-                        <div className="bg-gray-50 dark:bg-gray-600 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                        <div className="bg-teal-400 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                         { link === '#' 
                         ? null
                         : <a
                             href={link}
                             target={ link === '#' ? "_self" : "_blank" }
-                            className="inline-flex w-full justify-center rounded-md bg-purple-500 dark:bg-orange-500 px-3 py-2 text-sm font-semibold text-white dark:text-black shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+                            className="inline-flex w-full justify-center rounded-md bg-purple-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
                             onClick={() => setOpen(false)} >
                                 Go To Website
                           </a>

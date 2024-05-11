@@ -14,14 +14,14 @@ export default [
         blurb: "Created an Excel/VBS based employee emergency notification system for simplifying the process to call/text employees in case of inclement weather or other emergency company closures. Also created a Google Sheets variant to automate Bill Pay reminders for customers that are due soon/past due",
     },
     {
-        title: 'Balena.IO Kiosk Signage',
+        title: 'Visitor Sign-In and Kiosk Signage',
         imgUrl: '/assets/kiosk.jpg',
         stack: ['HTML', 'CSS', 'JavaScript'],
         link: '#',
         blurb: "Configured a self-service lobby check in kiosk using SwipedOn for visitor tracking and Balena.IO on RaspberryPI for signage. Visitors sign in on a secured iPad, or by scanning a QR code with their cell phone, then SwipedOn prints a visitor badge and notifies employee's via email and SMS that their visitor has arrived. Balena.IO allows remote configuration and management of the content displayed on the digital display.",
     },
     {
-        title: 'UCaaS Migration',
+        title: 'On-Prem PBX to UCaaS Migration',
         imgUrl: '/assets/uccas.webp',
         stack: ['Python', 'Mitel', 'RingCentral'],
         link: '#',
