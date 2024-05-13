@@ -1,8 +1,9 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default [
     {
-        title: 'Salesforce Migration and Customizations',
+        title: 'CRM Migration and Customizations',
         imgUrl: '/assets/Salesforce_Migration.png',
-        stack: ['Salesforce.com', 'Access Database', 'Office Scripts', 'Salesforce Flow'],
+        stack: ['Salesforce.com', 'Access Database', 'Office Scripts', 'Salesforce Flow', 'SugarCRM', 'SAP CRM'],
         link: '#',
         blurb: "Whether it is a complex excel document, access database or an existing CRM system, we can help you with customizations or migrations between various CRM systems.",
     },
@@ -23,8 +24,43 @@ export default [
     {
         title: 'On-Prem PBX to UCaaS Migration',
         imgUrl: '/assets/uccas.webp',
-        stack: ['Python', 'Mitel', 'RingCentral'],
+        stack: ['Python', 'Mitel', 'RingCentral', 'IVR', 'Amazon Poly', 'File conversions'],
         link: '#',
         blurb: "Migration from on-prem Mitel phone system to Avaya's RingCentral UCaaS. This project included negotiating rates, managing backups and exports, using WSL2 and scripting to convert recordings from proprietary audio formats to WAV, automated transcribing recordings, used AWS Polly to create new high quality recordings from transcriptions, and configured queues and IVR's in RingCentral.",
+    },
+    {
+        title: 'General IT Support',
+        imgUrl: '/assets/big-logo-large.png',
+        stack: ['Active Directory', 'Office 365', 'Licensing', 'Deployments', 'Helpdesk', 'Phone Systems', 'Security Cameras'],
+        link: '#',
+        blurb: "If you need general IT Support or help with other technology related projects that aren't listed here, we can help. Let us know more information about your situation and we will find various solutions for you.",
+    },
+    {
+        title: 'Web Development',
+        imgUrl: '/assets/big-logo-large.png',
+        stack: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React', 'WIX/Squarespace', 'Hosting', 'Dashboards'],
+        link: '#',
+        blurb: "We can provide maintenance on your current website, or build you a new website from scratch. Contact us with your requirements and we will help you with any updates or projects needed.",
+    },
+    {
+        title: 'Teams / SharePoint Customizations',
+        imgUrl: '/assets/big-logo-large.png',
+        stack: ['Workflows', 'Power Automate', 'PowerApps', 'Dataverse', 'Approval Workflows', 'Document Libraries'],
+        link: '#',
+        blurb: "We can provide assistance with setting up new flows and customizations, or assist in improving current offline processes and migrating them to Teams.",
+    },
+    {
+        title: 'Training and Documentation',
+        imgUrl: '/assets/big-logo-large.png',
+        stack: ['Knowledge Base', 'Office 365', 'Processes', 'Standardization', 'Learning Management Solutions'],
+        link: '#',
+        blurb: "TBD",
+    },
+    {
+        title: 'Project Management Systems',
+        imgUrl: '/assets/big-logo-large.png',
+        stack: ['ServiceNow', 'Monday.com', 'LiquidPlanner', 'Jira'],
+        link: '#',
+        blurb: "Unsure where to start? Want to migrate to a new project managment solution? We can provide research and development on various systems helping you find the best solution for your needs.",
     },
 ]
