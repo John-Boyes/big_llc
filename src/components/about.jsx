@@ -6,10 +6,10 @@ export default class About extends Component {
         <div className="flex items-center justify-center flex-col text-center py-6">
         
         <p className="font-semibold text-md max-w-xl">
-            Established in January 2021, Boyes Innovations Group focuses on supporting non-profits and small to medium sized businesses with various IT related projects. 
-            Whether you do not have a dedicated IT team or your IT team is currently busy with other projects, we are here to help fill in the gaps 
-            and help you complete IT projects on time.
-          </p>
+          Founded in January 2021, Boyes Innovations Group specializes in supporting non-profits and small to medium-sized businesses
+           with a variety of IT-related projects. Whether you lack a dedicated IT team or your current team is occupied with other tasks,
+            we are here to bridge the gap and ensure your IT projects are completed on time.
+        </p>
 
 
         </div>
