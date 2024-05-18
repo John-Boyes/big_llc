@@ -20,7 +20,7 @@ function PortfolioItem({ title, imgUrl, stack, link, blurb}) {
             alt="portfolio"
             className="w-full md:h-80 object-cover cursor-pointer"
             />
-        <div className="w-full p-4 bg-teal-400">
+        <div className="w-full p-4 bg-teal-400 min-h-full">
             <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold '>{title}</h3>
             <p className='flex flex-wrap gap-2 flex-row items-center justify-start 
                 text-xs md:text-sm '>

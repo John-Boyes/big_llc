@@ -52,9 +52,9 @@ export default [
     {
         title: 'Training and Documentation',
         imgUrl: '/assets/big-logo-large.png',
-        stack: ['Knowledge Base', 'Office 365', 'Processes', 'Standardization', 'Learning Management Solutions'],
+        stack: ['Knowledge Base', 'Office 365', 'Processes', 'Standardization', 'Learning Management Solutions', 'Video Creation'],
         link: '#',
-        blurb: "TBD",
+        blurb: "Training is a crucial component of any organization. Whether you're establishing onboarding and continuous training procedures for the first time or transitioning to a new Learning Management System (LMS), we are here to help. We also offer services to develop guides and train trainers on creating effective training programs and managing the LMS.",
     },
     {
         title: 'Project Management Systems',
