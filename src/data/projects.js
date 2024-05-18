@@ -44,7 +44,7 @@ export default [
     },
     {
         title: 'Teams / SharePoint Customizations',
-        imgUrl: '/assets/big-logo-large.png',
+        imgUrl: '/assets/powerautomate.png',
         stack: ['Workflows', 'Power Automate', 'PowerApps', 'Dataverse', 'Approval Workflows', 'Document Libraries'],
         link: '#',
         blurb: "We can provide assistance with setting up new flows and customizations, or assist in improving current offline processes and migrating them to Teams.",
