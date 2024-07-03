@@ -20,11 +20,11 @@ export default class Menu extends Component {
     <div class="text-lg font-semibold text-gray-200 lg:flex-grow">
       <a href="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Home
       </a>
-      <a href="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">About Us
+      <a href="/about" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">About Us
       </a>
-      <a href="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Services
+      <a href="/services" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Services
       </a>
-      <a href="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Projects
+      <a href="/projects" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Projects
       </a>
     </div>
     <div>
