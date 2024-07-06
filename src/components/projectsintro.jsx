@@ -2,7 +2,8 @@ import React from 'react';
 import Project from '../data/projects';
 import ProjectItem from './ProjectItem'
 
-function Projects() {
+function ProjectsIntro() {
+  const previewProjects = Project.slice(0,3);
 
   return (
     <div className='flex flex-col scroll-p-8'>
@@ -17,7 +18,7 @@ function Projects() {
       <div className='flex flex-col md:flex-row items-center justify-center scroll-p-8 mx-6'>
         
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6'>
-              {Project.map(project => (
+              {previewProjects.map(project => (
                 <ProjectItem
                 imgUrl={project.imgUrl}
                 title={project.title}
@@ -33,4 +34,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default ProjectsIntro

@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="App bg-blue-50">
       <Menu />
-      <div className='mx-6'>
+      <div className='min-h-screen py-6 mx-6'>
         <About />
       </div>
     </div>

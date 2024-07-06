@@ -2,19 +2,19 @@ import '../App.css'
 import Menu from '../components/menu';
 import Services from '../components/services';
 import About from '../components/about';
-import Projects from '../components/projects';
+import ProjectsIntro from '../components/projectsintro';
 import Contact from '../components/contact';
 
 function Home() {
   return (
     <div className="App bg-blue-50">
         <Menu />
-      <div className='mx-6'>
+      <div className='min-h-screen flex flex-col gap-8 mx-6 py-6'>
         <About />
         <Services />
-        <Projects />
-        <Contact />
+        <ProjectsIntro />
       </div>
+        <Contact />
     </div>
   );
 }

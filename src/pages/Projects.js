@@ -6,7 +6,7 @@ export default function ProjectsPage() {
   return (
     <div className="App bg-blue-50">
       <Menu />
-      <div className='py-6 mx-6'>
+      <div className='flex py-6 mx-6'>
         <Projects />
       </div>
     </div>
