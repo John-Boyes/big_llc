@@ -5,17 +5,17 @@ import Root from './components/root';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './components/about';
-import Contact from './components/contact';
-import Services from './components/services';
-import Projects from './components/projects';
+import AboutPage from './pages/About';
+import App from './pages/Contact'
+import ServicesPage from './pages/Services';
+import ProjectsPage from './pages/Projects';
+
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
-    errorElement: <div>404 Not Found</div>,
-    children: [
+    errorElement: <div>404 Not Found</div>},
     {
       path: '/Home',
       element: <Home />,
@@ -23,24 +23,24 @@ const router = createBrowserRouter([
     },
     {
       path: '/About',
-      element: <About />,
+      element: <AboutPage />,
       errorElement: <div>404 Not Found</div>
     },
     {
       path: '/Contact',
-      element: <Contact />,
+      element: <App />,
       errorElement: <div>404 Not Found</div>
     },
     {
       path: '/Services',
-      element: <Services />,
+      element: <ServicesPage />,
       errorElement: <div>404 Not Found</div>
     },
     {
       path: '/Projects',
-      element: <Projects />,
+      element: <ProjectsPage />,
       errorElement: <div>404 Not Found</div>
-    }]}
+    }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,18 +1,14 @@
-import './App.css';
-import Menu from './components/menu';
-import Services from './components/services';
-import Projects from './components/projects';
+import '../App.css';
+import Menu from '../components/menu';
+import Projects from '../components/projects';
 
-function App() {
+export default function ProjectsPage() {
   return (
     <div className="App bg-blue-50">
       <Menu />
       <div className='mx-6'>
-        <Services />
         <Projects />
       </div>
     </div>
   );
 }
-
-export default App;

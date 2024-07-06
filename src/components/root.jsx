@@ -1,7 +1,5 @@
-import Menu from "./menu";
 import Home from "../pages/Home";
 import { 
-    Outlet,
     useNavigation,
  } from "react-router-dom";
 
@@ -10,8 +8,6 @@ export default function Root() {
 
     return (
       <>
-        <Menu />
-        <Home />
         <div
             id="detail"
             className={
@@ -19,7 +15,7 @@ export default function Root() {
               }
         >
             
-            <Outlet />
+            <Home />
         </div>
       </>
     );

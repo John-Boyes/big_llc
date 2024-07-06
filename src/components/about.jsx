@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
+
 export default class About extends Component {
   render() {
     return (
-        <div className="flex items-center justify-center flex-col text-center py-6">
+      <div>
+        <div className="flex items-center justify-center flex-col text-center py-6" y-full>
         
         <p className="font-semibold text-md max-w-xl">
           Founded in January 2021, Boyes Innovations Group specializes in supporting non-profits and small to medium-sized businesses
@@ -13,6 +15,7 @@ export default class About extends Component {
 
 
         </div>
+      </div>
     )
   }
 }

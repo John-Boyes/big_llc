@@ -1,6 +1,6 @@
-import './App.css';
-import Menu from './components/menu';
-import Contact from './components/contact';
+import '../App.css';
+import Menu from '../components/menu';
+import Contact from '../components/contact';
 
 function App() {
   return (
