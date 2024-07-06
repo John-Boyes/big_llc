@@ -4,9 +4,9 @@ import Services from '../components/services';
 
 export default function ServicesPage() {
   return (
-    <div className="App bg-blue-50">
+    <div className="min-h-screen App bg-blue-50">
       <Menu />
-      <div className='mx-6'>
+      <div className='py-6 mx-6'>
         <Services />
       </div>
     </div>

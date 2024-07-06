@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App bg-blue-50">
       <Menu />
-      <div className='mx-6'>
+      <div className='py-6 mx-6'>
         <Contact />
       </div>
     </div>
