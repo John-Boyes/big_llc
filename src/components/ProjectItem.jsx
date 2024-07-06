@@ -15,11 +15,20 @@ function PortfolioItem({ title, imgUrl, stack, link, blurb}) {
                 rounded-2xl overflow-hidden shadow-md 
                 shadow-stone-500 '
             >
-        <img 
-            src={imgUrl}
-            alt="portfolio"
-            className="w-full md:h-80 object-cover cursor-pointer"
-            />
+        <div class="relative">
+            <img 
+                src={imgUrl}
+                alt="portfolio"
+                title="Show Details"
+                className="w-full md:h-80 object-cover cursor-pointer"
+                />
+           <div class="bg-gray-600 opacity-0 hover:opacity-90 duration-300 
+                absolute inset-0 z-10 flex justify-center items-center 
+                text-4xl font-semibold">
+                    View Details
+                </div>
+        </div>
+
         <div className="w-full p-4 bg-teal-400 min-h-full">
             <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold '>{title}</h3>
             <p className='flex flex-wrap gap-2 flex-row items-center justify-start 

@@ -9,8 +9,7 @@ function Home() {
   return (
     <div className="App bg-blue-50">
         <Menu />
-      <div className='min-h-screen flex flex-col gap-8 mx-6 py-6'>
-        <About />
+      <div className='min-h-screen flex flex-col gap-8 py-6 mx-6 lg:mx-64 md:mx-12'>
         <Services />
         <ProjectsIntro />
       </div>

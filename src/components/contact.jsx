@@ -4,14 +4,14 @@ function Contact() {
   return (
     <div
       id='Contact'
-      className="flex flex-col py-12 mx-auto">
+      className="flex flex-col p-12 mx-auto">
       <div className="flex justify-center items-center">
         <form 
           action="hhttps://getform.io/f/34a3f97a-ff80-431e-8aaf-a83240c5375d"
           method="Post"
-          className='flex flex-col w-full md:w-7/12 '
+          className='flex flex-col w-full md:w-7/12 lg:w-4/12'
         >
-          <p className="text-xl font-bold text-left">Request Consultation</p>
+          <p className="text-xl font-bold text-left pb-4">Request Consultation</p>
           <input
             type="text"
             name="name"

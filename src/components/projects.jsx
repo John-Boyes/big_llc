@@ -6,13 +6,8 @@ function Projects() {
 
   return (
     <div className='flex flex-col scroll-p-8'>
-      <p className="text-xl font-bold text-left">Previous Projects</p>
+      <p className="text-xl font-bold text-left pb-4">Previous Projects</p>
 
-      <div className='flex justify-center'>
-        <p className="text-md max-w-xl">
-            Click on a Project Card below for additional information
-        </p>
-      </div>
 
       <div className='flex flex-col md:flex-row items-center justify-center scroll-p-8 mx-6'>
         
