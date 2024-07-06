@@ -13,7 +13,7 @@ function PortfolioItem({ title, imgUrl, stack, link, blurb}) {
             rel="noopener noreferrer"
             className='bg-teal-400 border-2 border-stone-900 
                 rounded-2xl overflow-hidden shadow-md 
-                shadow-stone-500 '
+                shadow-stone-500 lg:max-w-lg'
             >
         <div class="relative">
             <img 
