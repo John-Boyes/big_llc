@@ -1801,6 +1801,11 @@ code {
     margin-right: 4rem;
   }
 
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
   .md\:mb-3 {
     margin-bottom: 0.75rem;
   }
@@ -1858,6 +1863,11 @@ code {
     margin-right: 20rem;
   }
 
+  .lg\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -1905,6 +1915,18 @@ code {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-96 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
+  .xl\:mx-80 {
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 }
 
