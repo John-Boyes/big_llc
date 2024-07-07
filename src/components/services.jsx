@@ -1,19 +1,34 @@
 import React from 'react'
+import Accordion from './accordion'
+import services from '../data/services'
 
 export default function Services() {
   return (
     <div>
-        <p className="text-xl font-bold text-left ">Services</p>
-        <ol className='flex flex-col col-2 divide-y divide-gray-200 mx-6'>
-            <li>Salesforce / CRM Migration and Customization</li>
-            <li>IT Project Managment</li>
-            <li>Teams / SharePoint Customization and Automations</li>
-            <li>Software and Application Deployment</li>
-            <li>General IT Support Services</li>
-            <li>IT Related Research and Development</li>
-            <li>Web Development</li>
-            <li>Technology Training and Documentation</li>
-        </ol>
+        <div class="relative
+          
+        ">
+          {/* <img src="../../assets/meeting-lg.jpg"  class="w-full" /> */}
+          <div class="text-overlay absolute left-auto top-auto p-6">
+            IT Consulting Services
+          </div>
+        </div>
+        <p className="text-xl font-bold text-left pb-8 ">Boyes Innovations</p>
+        <div className='md:mx-16 lg:mx-80'>
+          {services.map(service => (
+            <div className='mx-auto p-2 mb-2 bg-teal-200 rounded-lg shadow-md shadow-stone-400
+            divide-y divide-stone-800'> 
+           
+              <Accordion 
+              title={service.title}
+              answer={service.answer}
+              />
+
+            </div>
+          ))}
+        </div>
+
+       
 
     </div>
   )
