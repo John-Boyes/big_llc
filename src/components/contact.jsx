@@ -11,13 +11,14 @@ function Contact() {
   return (
     <div
       id='Contact'
-      className="flex flex-col p-12 mx-auto">
-      <div className="flex w-auto text-xl text-stone-900 font-bold text-left pl-24 pb-4"><p className='backdrop-blur-sm'>Request Consultation</p></div>
+      className="flex flex-col p-4 mx-auto">
+      <div className="flex w-auto text-3xl text-stone-900 font-bold text-left pb-4 mx-auto">
+        <p className='backdrop-blur-sm p-4'>Request Consultation</p></div>
       <div className="flex justify-center items-center">
         <form 
           action="https://getform.io/f/34a3f97a-ff80-431e-8aaf-a83240c5375d"
           method="Post"
-          className='flex flex-col w-full md:w-7/12 lg:w-4/12'
+          className='flex flex-col w-full md:w-7/12 lg:w-6/12'
         >
           <input
             type="text"

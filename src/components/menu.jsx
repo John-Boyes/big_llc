@@ -17,7 +17,12 @@ export default function Menu() {
     <nav class="flex items-center justify-between flex-wrap bg-teal-600 p-2 shadow-md shadow-stone-400 ">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         
-        <img src='\assets\cartoon.png' className='w-12' alt='man holding laptop' /><span class="font-semibold text-xl tracking-tight">Boyes Innovations Group</span>
+        <img src='\assets\cartoon.png' className='w-12' alt='man holding laptop' />
+        
+          <div class="text-overlay absolute ml-20 mt-8">
+            IT Consulting Services
+        </div>
+        <span class="font-semibold text-xl tracking-tight -mt-4">Boyes Innovations Group</span>
       </div>
       <div class="block lg:hidden">
         <button 

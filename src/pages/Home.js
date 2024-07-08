@@ -10,13 +10,17 @@ function Home() {
       <Menu />
       <div
         class="bg-[url('../public/assets/meeting-lg.jpg')]
-        min-h-screen w-full bg-cover bg-center p-4
+        w-full bg-cover bg-center p-4
         "
         alt="3 person meeting at table"
         >
+        <div className='flex flex-col py-6 mx-6
+       lg:mx-64 md:mx-12'>
+        <p className="flex text-xl font-bold text-left pb-4">Services</p>
         <Services />
       </div>
-      <div className='min-h-screen flex flex-col gap-8 py-6 mx-6
+      </div>
+      <div className='flex flex-col gap-8 py-6 mx-6
        lg:mx-64 md:mx-12'>
         <ProjectsIntro />
       </div>

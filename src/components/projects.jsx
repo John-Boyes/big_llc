@@ -5,8 +5,8 @@ import ProjectItem from './ProjectItem'
 function Projects() {
 
   return (
-    <div className='flex flex-col scroll-p-8'>
-      <p className="text-xl font-bold text-left pb-4">Previous Projects</p>
+    <div className='flex flex-col scroll-p-8 px-4 mx-6'>
+      <p className="flex text-xl font-bold text-left pb-4">Previous Projects</p>
 
 
       <div className='flex flex-col md:flex-row items-center justify-center scroll-p-8 mx-6'>
