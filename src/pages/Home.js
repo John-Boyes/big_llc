@@ -14,7 +14,7 @@ function Home() {
         "
         alt="3 person meeting at table"
         >
-        <div className='flex flex-col py-6 mx-6
+      <div className='flex flex-col py-6 mx-6
        lg:mx-64 md:mx-12'>
         <p className="flex text-xl font-bold text-left pb-4">Services</p>
         <Services />

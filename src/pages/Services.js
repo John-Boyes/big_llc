@@ -13,7 +13,8 @@ export default function ServicesPage() {
         alt="3 person meeting at table"
         >
         <div className='py-6 mx-6 md:mx-12'>
-          <p className="text-3xl text-white font-bold text-left pb-8 ">Boyes Innovations Services</p>
+        <div className="flex w-auto text-3xl text-white font-bold text-left pb-4 mx-auto">
+        <p className="backdrop-blur-sm ">Boyes Innovations Services</p></div>
           <Services />
         </div>
       </div>
