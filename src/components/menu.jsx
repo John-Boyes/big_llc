@@ -56,8 +56,12 @@ export default function Menu() {
           <div className="flex items-center justify-between">
             <a href="/" className="flex -m-1.5 p-1.5">
               <span className="sr-only">Boyes Innovations Group</span>
-              <img src='\assets\cartoon.png' className='h-8 w-auto' alt='man holding laptop' />
-              <span class="pl-2 font-semibold text-xl tracking-tight">Boyes Innovations</span>
+              <img src='\assets\cartoon.png' className='w-12' alt='man holding laptop' />
+        
+              <div class="text-overlay absolute ml-20 mt-6">
+                IT Consulting Services
+            </div>
+            <span class="font-semibold text-xl tracking-tight">Boyes Innovations Group</span>
             </a>
             <button
               type="button"
@@ -79,10 +83,10 @@ export default function Menu() {
                   className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-teal-200"
                   >
                     <div className="flex-auto">
-                      <a href={item.href} className="block font-semibold text-gray-900">
+                      <Link to={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 ))}
