@@ -37,14 +37,14 @@ header nav ul li a {
   grid-template-columns: auto;
 }
 
-.wrapper section h1, .wrapper section h2, .wrapper section .read-btn {
+.wrapper section h1, .wrapper section h2, .wrapper section .readBtn {
   text-transform: uppercase;
   margin: 0;
 }
 .wrapper section h2 {
   font-size: 1.4rem;
 }
-.wrapper section .read-btn {
+.wrapper section .readBtn {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -80,7 +80,7 @@ header nav ul li a {
 .wrapper section.hero h1 {
   font-size: 2.4rem;
 }
-.wrapper section.hero .read-btn {
+.wrapper section.hero .readBtn {
   background-color: rgba(255, 183, 3, 0.795);
 }
 .wrapper section.sidebar, .wrapper section.subscribe {
@@ -90,7 +90,7 @@ header nav ul li a {
 .wrapper section.sidebar {
   background: rgb(15, 206, 190);
 }
-.wrapper section.sidebar .read-btn {
+.wrapper section.sidebar .readBtn {
   display: block;
   background-position: 0 0.3em;
 }
