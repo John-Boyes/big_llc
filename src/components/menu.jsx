@@ -37,7 +37,7 @@ export default function Menu() {
         <div class="text-sm text-gray-200 lg:flex-grow">
           <Link to="/" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Home
           </Link>
-          <Link reloadDocument to="/About" onClick={() => window.location.reload()} class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
+          <Link reloadDocument to="/About" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
           </Link>
           <Link to="/Services" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Services
           </Link>
