@@ -1,12 +1,15 @@
 import '../App.css'
 import Menu from '../components/menu';
-import About from '../components/about';
+import About from '../components/about-modern';
 
 export default function AboutPage() {
   return (
-    <div className="App bg-blue-50">
-      <Menu />
-      <div className='min-h-screen py-6 mx-6'>
+    <div className="App">
+      <header className='w-full'>
+        <Menu />
+      </header>
+      
+      <div className='min-h-screen text-left'>
         <About />
       </div>
     </div>

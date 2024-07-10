@@ -19,10 +19,10 @@ export default function Menu() {
         
         <img src='\assets\cartoon.png' className='w-12' alt='man holding laptop' />
         
-          <div class="text-overlay absolute ml-20 mt-8">
+          <div class="text-overlay absolute ml-20 mt-6">
             IT Consulting Services
         </div>
-        <span class="font-semibold text-xl tracking-tight -mt-4">Boyes Innovations Group</span>
+        <span class="font-semibold text-lg tracking-tight -mt-4">Boyes Innovations Group</span>
       </div>
       <div class="block lg:hidden">
         <button 
@@ -34,19 +34,23 @@ export default function Menu() {
         </button>
       </div>
       <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-lg font-semibold text-gray-200 lg:flex-grow">
-          <Link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Home
+        <div class="text-sm text-gray-200 lg:flex-grow">
+          <Link to="/" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Home
           </Link>
-          <Link to="/About" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">About Us
+          <Link reloadDocument to="/About" onClick={() => window.location.reload()} class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
           </Link>
-          <Link to="/Services" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Services
+          <Link to="/Services" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Services
           </Link>
-          <Link to="/Projects" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mx-4">Projects
+          <Link to="/Projects" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Projects
           </Link>
         </div>
         <div>
-          <Link to="/Contact" class="hidden lg:flex lg:justify-end inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white 
-            hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Request Consultation</Link>
+              <Link to="/Contact" class="text-sm font-semibold p-2 mx-2
+                 border rounded-lg text-white
+                  bg-gradient-to-r from-blue-400 via-purple-600 via-orange-300 to-red-400
+                   hover:bg-gradient-to-r hover:from-blue-200 hover:via-purple-400 hover:via-orange-100 hover:to-red-200
+                    hover:text-teal-900 mt-4
+                     ">Request Consultation</Link>
         </div>
       </div>
     </nav>
@@ -83,7 +87,7 @@ export default function Menu() {
                   className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-teal-200"
                   >
                     <div className="flex-auto">
-                      <Link to={item.href} className="block font-semibold text-gray-900">
+                      <Link reloadDocument to={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>

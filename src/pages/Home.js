@@ -9,14 +9,14 @@ function Home() {
     <div className="App bg-blue-50">
       <Menu />
       <div
-        class="bg-[url('../public/assets/meeting-lg.jpg')]
+        class="bg-[url('../public/assets/road-lg.jpg')]
         w-full bg-cover bg-center p-4
         "
         alt="3 person meeting at table"
         >
       <div className='flex flex-col py-6 mx-6
        lg:mx-64 md:mx-12'>
-        <p className="flex text-xl font-bold text-left pb-4">Services</p>
+        <p className="flex text-2xl text-white font-bold text-left pb-4">Services</p>
         <Services />
       </div>
       </div>

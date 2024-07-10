@@ -15,3 +15,138 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  position: absolute;
+  z-index: 10;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li a {
+  padding: 1em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.wrapper section h1, .wrapper section h2, .wrapper section .read-btn {
+  text-transform: uppercase;
+  margin: 0;
+}
+.wrapper section h2 {
+  font-size: 1.4rem;
+}
+.wrapper section .read-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background: url("../public/images/arrow.svg") no-repeat;
+  background-size: 8px;
+  background-position: 0 1px;
+  padding-left: 1em;
+}
+.wrapper section .primary {
+  padding: 1.5em 1.5em 1.5em calc(3em + 25px);
+  background-position: 3em;
+  border: 1px solid gray;
+  margin-top: 3em;
+  margin-left: -3em;
+  display: inline-block;
+}
+.wrapper section .clipper {
+  overflow: hidden;
+}
+.wrapper section.hero {
+  padding-top: 21em;
+  background: url("../public/assets/meeting-lg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.wrapper section.hero p {
+  background-color: rgba(255, 183, 3, 0.795);
+  width: 70%;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: #000;
+}
+.wrapper section.hero h1 {
+  font-size: 2.4rem;
+}
+.wrapper section.hero .read-btn {
+  background-color: rgba(255, 183, 3, 0.795);
+}
+.wrapper section.sidebar, .wrapper section.subscribe {
+  font-size: 0.9rem;
+  line-height: 1.6em;
+}
+.wrapper section.sidebar {
+  background: rgb(15, 206, 190);
+}
+.wrapper section.sidebar .read-btn {
+  display: block;
+  background-position: 0 0.3em;
+}
+.wrapper section.subscribe input {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.wrapper section.subscribe button {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 1em;
+  border: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  header {
+    background: none;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 55% auto;
+    grid-template-areas: "hero featured" "hero subscribe";
+    height: 100vh;
+  }
+  section.hero {
+    grid-area: hero;
+  }
+  section {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+
+/*demo fluff */
+
+
+button {
+  cursor: pointer;
+}
+
+.closebutton:hover {
+  cursor: pointer;
+}
