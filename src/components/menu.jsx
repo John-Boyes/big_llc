@@ -37,7 +37,7 @@ export default function Menu() {
         <div class="text-sm text-gray-200 lg:flex-grow">
           <Link to="/" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Home
           </Link>
-          <Link reloadDocument to="/About" onClick={() => window.location.reload()} class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
+          <Link reloadDocument to="/About" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
           </Link>
           <Link to="/Services" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Services
           </Link>
@@ -87,7 +87,7 @@ export default function Menu() {
                   className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-teal-200"
                   >
                     <div className="flex-auto">
-                      <Link reloadDocument to={item.href} onClick={() => window.location.reload()} className="block font-semibold text-gray-900">
+                      <Link reloadDocument to={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>

@@ -628,6 +628,11 @@ video {
   margin-bottom: -1.5rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -690,10 +695,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .block {
@@ -953,6 +954,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -989,11 +994,6 @@ video {
 .border-teal-400 {
   --tw-border-opacity: 1;
   border-color: rgb(45 212 191 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-blue-50 {
@@ -1058,10 +1058,6 @@ video {
 
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
-}
-
-.bg-\[url\(\'\.\.\/public\/assets\/meeting-lg\.jpg\'\)\] {
-  background-image: url('../public/assets/meeting-lg.jpg');
 }
 
 .bg-\[url\(\'\.\.\/public\/assets\/road-lg\.jpg\'\)\] {
@@ -1241,6 +1237,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1290,10 +1291,6 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .tracking-tight {
@@ -1503,12 +1500,30 @@ code {
     monospace;
 }
 
+header {
+  position: absolute;
+  z-index: 10;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  padding: 1em;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: auto;
 }
 
-.wrapper section h1, .wrapper section h2, .wrapper section .read-btn {
+.wrapper section h1, .wrapper section h2, .wrapper section .readBtn {
   text-transform: uppercase;
   margin: 0;
 }
@@ -1517,7 +1532,7 @@ code {
   font-size: 1.4rem;
 }
 
-.wrapper section .read-btn {
+.wrapper section .readBtn {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -1541,7 +1556,7 @@ code {
 }
 
 .wrapper section.hero {
-  padding-top: 12em;
+  padding-top: 21em;
   background: url("../public/assets/meeting-lg.jpg");
   background-position: center;
   background-size: cover;
@@ -1559,7 +1574,7 @@ code {
   font-size: 2.4rem;
 }
 
-.wrapper section.hero .read-btn {
+.wrapper section.hero .readBtn {
   background-color: rgba(255, 183, 3, 0.795);
 }
 
@@ -1572,7 +1587,7 @@ code {
   background: rgb(15, 206, 190);
 }
 
-.wrapper section.sidebar .read-btn {
+.wrapper section.sidebar .readBtn {
   display: block;
   background-position: 0 0.3em;
 }
@@ -1605,7 +1620,7 @@ code {
   .wrapper {
     display: grid;
     grid-template-columns: 70% auto;
-    grid-template-rows: 60% auto;
+    grid-template-rows: 55% auto;
     grid-template-areas: "hero featured" "hero subscribe";
     height: 100vh;
   }
@@ -1676,11 +1691,6 @@ button {
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gradient-to-r:hover {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1708,11 +1718,6 @@ button {
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.hover\:text-teal-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
 .hover\:text-teal-900:hover {
@@ -1874,6 +1879,18 @@ button {
     margin-bottom: 0.75rem;
   }
 
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-80 {
     height: 20rem;
   }
@@ -1911,10 +1928,6 @@ button {
     margin-top: 0px;
   }
 
-  .lg\:inline-block {
-    display: inline-block;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1947,13 +1960,14 @@ button {
     align-items: center;
   }
 
-  .lg\:justify-end {
-    justify-content: flex-end;
-  }
-
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
