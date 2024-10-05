@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <div className="flex items-center flex-col text-center py-6">
+        <div className="flex min-h-screen justify-center items-center flex-col text-center py-6">
         
         <p className="font-semibold text-md max-w-2xl py-6">
           Founded in January 2021, Boyes Innovations Group specializes in supporting non-profits and small to medium-sized businesses
