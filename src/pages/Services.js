@@ -1,6 +1,7 @@
 import '../App.css';
 import Menu from '../components/menu';
 import Services from '../components/services';
+import Footer from '../components/footer';
 
 export default function ServicesPage() {
   return (
@@ -18,6 +19,7 @@ export default function ServicesPage() {
           <Services />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

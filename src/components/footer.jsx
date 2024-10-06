@@ -1,19 +1,19 @@
 import React from 'react'
 
-export default function footer() {
+export default function Footer() {
   return (
     <div className='grid justify-items-stretch item-start bg-black'>
         <div className='flex flex-col md:flex-row
             text-white text-sm p-8
             justify-center justify-items-stretch items-start
             '>
-
+                {/* Left */}
             <div className='flex flex-col justify-center items-center m-4'>
                 <p className='font-bold text-gray-500 pb-2'>Boyes Innovations Group, LLC
                 </p>
                 <span className='flex text-xs text-pretty'>IT Consulting Services for non-profits and small businesses</span>
             </div>
-
+                {/* Center */}
             <div className='flex flex-col justify-center items-center mx-auto m-4'>
                 <p className='font-bold text-gray-500 pb-2'>About
                 </p>
@@ -27,7 +27,7 @@ export default function footer() {
                             Transplant Alliance Foundation</a></li>
                     </ul></span>
             </div>
-
+                {/* Right */}
             <div className='flex flex-col justify-center items-center mx-auto m-4'>
                 <p className='font-bold text-gray-500 pb-2'>Social Media
                 </p>

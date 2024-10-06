@@ -47,7 +47,7 @@ function Home() {
       </div>
       <div
         class="bg-[url('../public/assets/road-lg.jpg')]
-        w-full h-screen bg-cover bg-center p-4
+        w-full min-h-screen bg-cover bg-center p-4
         "
         alt="winding road"
         >
