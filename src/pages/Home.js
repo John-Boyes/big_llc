@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import '../App.css'
 import Menu from '../components/menu';
-import About from '../components/about'
+import About from '../components/about-modern'
 import Services from '../components/services';
 import ProjectsIntro from '../components/projectsintro';
 import Contact from '../components/contact';
