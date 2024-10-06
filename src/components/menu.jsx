@@ -35,7 +35,7 @@ export default function Menu() {
       </div>
       <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm text-gray-200 lg:flex-grow">
-          <Link to="/" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Home
+          <Link reloadDocument to="/" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">Home
           </Link>
           <Link reloadDocument to="/About" class="block mt-4 md:inline-block md:mt-0 hover:text-white mx-4">About Us
           </Link>

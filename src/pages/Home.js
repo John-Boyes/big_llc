@@ -42,8 +42,8 @@ function Home() {
   return (
     <div className="App bg-blue-50">
       <Menu />
-      <div className='min-h-screen'  data-aos="zoom-in-down" data-aos-duration="3000">
-        <About data-aos="fade-up" data-aos-duration="3000" />
+      <div className='Inq'>
+        <About />
       </div>
       <div
         class="bg-[url('../public/assets/road-lg.jpg')]
