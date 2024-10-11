@@ -52,8 +52,8 @@ function Home() {
         alt="winding road"
         >
         <div className='flex flex-col py-6 mx-6
-        lg:mx-64 md:mx-12'
-        data-aos="fade-up" data-aos-duration="3000">
+            lg:mx-64 md:mx-12'
+            data-aos="fade-up" data-aos-duration="3000">
           <p className="flex text-2xl text-white font-bold text-left pb-4">Services</p>
           <Services />
         </div>

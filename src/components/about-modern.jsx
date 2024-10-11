@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div class="clutter">
-        <div class="wrapper">
+        <div class="wrapper min-h-fit">
             <section class="hero">
                 <div class="inner">
                     <div class="clipper">
